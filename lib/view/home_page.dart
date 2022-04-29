@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
               controller: _controller,
               itemCount: _posts.length,
               itemBuilder: (_, index) => Card(
-                margin: const EdgeInsets.symmetric(vertical: 25, horizontal: 10),
+                margin: const EdgeInsets.symmetric(vertical: 45, horizontal: 10),
                 child: ListTile(
                   leading: Image.network(_posts[index]['avatar']),
                   title: Text(_posts[index]['first_name']),
